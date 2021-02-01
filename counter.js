@@ -1,32 +1,28 @@
-// random value generated 
 let y = Math.floor(Math.random() * 10 + 1); 
       
-// counting the number of guesses 
-// made for correct Guess 
 let guess = 1; 
   
 document.getElementById("indsendgæt").onclick = function(){ 
   
-// number guessed by user      
+
 let x = document.getElementById("gættal").value;
 
 if(x == y) 
 {     
-   alert("CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN "
-           + guess + " GUESS ");
+   alert("Du gæætede rigtigt i "
+           + guess + " gæt ");
    document.getElementById('gættal').value='';
 } 
-else if(x > y) /* if guessed number is greater 
-               than actual number*/ 
+else if(x > y)
 {     
    guess++; 
-   alert("OOPS SORRY!! TRY A SMALLER NUMBER");
+   alert("Prøv et mindre tal");
    document.getElementById('gættal').value='';
 } 
 else
 { 
    guess++; 
-   alert("OOPS SORRY!! TRY A GREATER NUMBER")
+   alert("Prøv et større tal")
    document.getElementById('gættal').value='';
 } 
 } 
