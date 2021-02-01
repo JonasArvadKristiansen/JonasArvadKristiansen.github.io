@@ -1,10 +1,7 @@
-let y = Math.floor(Math.random() * 10 + 1); 
-      
+let y = Math.floor(Math.random() * 10 + 1);       
 let guess = 1; 
   
-document.getElementById("indsendgæt").onclick = function(){ 
-  
-
+document.getElementById("indsendgæt").onclick = function(){
 let x = document.getElementById("gættal").value;
 
 if(x == y) 
@@ -25,4 +22,4 @@ else
    alert("Prøv et større tal")
    document.getElementById('gættal').value='';
 } 
-} 
+}
