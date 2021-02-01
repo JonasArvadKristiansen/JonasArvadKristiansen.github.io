@@ -6,7 +6,7 @@ let x = document.getElementById("gættal").value;
 
 if(x == y) 
 {     
-   alert("Du gæætede rigtigt i "
+   alert("Du gættede rigtigt i "
            + guess + " gæt ");
    document.getElementById('gættal').value='';
 } 
