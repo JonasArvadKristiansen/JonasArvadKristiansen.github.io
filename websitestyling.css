@@ -1,10 +1,11 @@
 html { 
- font-family: sans-serif; 
+ font-family: sans-serif;
+ background-color: green;
  } 
    
      body { 
  width: 50%; 
  max-width: 800px; 
  min-width: 480px; 
- margin: 0 auto; 
+ margin: 0 auto;
  } 
